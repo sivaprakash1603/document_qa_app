@@ -1,7 +1,0 @@
-@media (forced-colors: active) {
-  /* Styles for high contrast mode in modern browsers */
-  body {
-      background-color: black;
-      color: white;
-  }
-}
