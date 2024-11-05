@@ -237,7 +237,7 @@ export default function App() {
     return (
         <div style={styles.appWrapper}>
             <div style={styles.container}>
-                <h1 style={styles.heading}>Document QA App</h1>
+                <h1 style={styles.heading}>Study Buddy</h1>
                 <div style={styles.fileUploadWrapper}>
                     <input type="file" onChange={handleFileChange} accept=".txt" style={styles.input1} />
                     <button
