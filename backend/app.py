@@ -78,7 +78,7 @@ def download_summary():
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
             pdf = FPDF()
             pdf.add_page()
-            pdf.add_font("ArialUnicode", "", "utils/arial.ttf", uni=True)  # Ensure arial.ttf is available
+            pdf.add_font("ArialUnicode", "", "/utils/arial.ttf", uni=True)  # Ensure arial.ttf is available
             pdf.set_font("ArialUnicode", size=12)
             pdf.set_auto_page_break(auto=True, margin=15)
             pdf.multi_cell(0, 10, summary)
